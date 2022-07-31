@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: #eee;
+}
+
+.globalHeader {
+    margin: 40px 18px;
+}
+
+.searchForm {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.searchForm input {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 223px;
+    padding-left: 10px;
+}
+
+.searchForm button {
+    width: 85px;
+    background-color: #227CBD;
+    border: 1px solid #227CBD;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+}
+
+.siteList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 18px;
+}
+
+.siteList>li {
+    margin-bottom: 16px;
+}
+
+.site {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    width: 160px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+
+.site .icon {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    text-transform: uppercase;
+}
+
+
+
+.site .text {
+    font-size: 14px;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.addButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    padding: 20px 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.addButton .iconfont {
+    display: flex;
+    justify-content: center;
+    font-size: 64px;
+}
+
+.addButton text {
+    font-size: 14px;
+    margin-top: 10px;
+}
